@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    public float zoomSpeed = 0.1f;
+    public float zoomSpeed = 10f;
     public float minZoom = 0.1f;
-    public float maxZoom = 5f;
+    public float maxZoom = 100f;
 
     private Vector3 dragOffset;
     private Camera mainCamera;
